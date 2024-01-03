@@ -19,6 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'posidon.launcher'
 }
 
 dependencies {
@@ -28,7 +29,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'com.pixplicity.sharp:library:1.1.0'
-    implementation 'io.posidon:android.loader:master-SNAPSHOT'
-    implementation 'io.posidon:android.convenienceLib:master-SNAPSHOT'
-    implementation 'io.posidon:android.launcherUtils:14c528f32d'
+    implementation 'io.posidon:android.loader:0.0.1'
+    implementation 'io.posidon:android.convenienceLib:22.0'
+    implementation 'io.posidon:android.launcherUtils:22.0'
 }
